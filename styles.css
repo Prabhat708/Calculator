@@ -1,0 +1,36 @@
+body{
+    background-image: url(calculator-bg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.calculator {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 5px;
+    max-width: 300px;
+    margin: 0 0;
+    padding: 10px;
+}
+
+.display {
+    grid-column: span 4;
+    background-color: #f0f0f0;
+    font-size: 24px;
+    text-align: right;
+    padding: 20px;
+    margin-top: 10px;
+}
+
+.btn {
+    background-color: #e0e0e0;
+    border: none;
+    padding: 20px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #f3d2d2;
+}
